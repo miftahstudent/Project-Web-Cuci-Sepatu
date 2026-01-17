@@ -1,0 +1,95 @@
+/* FORM */
+.form-box {
+    background: #1c1c1c;
+    padding: 25px;
+    border-radius: 10px;
+    width: 420px;
+    margin-bottom: 40px;
+}
+
+.form-box h3 {
+    margin-bottom: 15px;
+    color: #f4c430;
+}
+
+.form-box input,
+.form-box textarea,
+.form-box select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.form-box textarea {
+    resize: vertical;
+}
+
+/* TABLE */
+.table-wrapper {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead {
+    background: #111;
+}
+
+table th {
+    padding: 12px;
+    text-align: left;
+    color: #f4c430;
+    font-size: 14px;
+}
+
+table td {
+    padding: 12px;
+    border-top: 1px solid #333;
+}
+
+table tr:hover {
+    background: #2a2a2a;
+}
+
+/* BADGE STATUS */
+.badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badge.aktif {
+    background: rgba(0,255,0,0.15);
+    color: #00ff88;
+}
+
+.badge.nonaktif {
+    background: rgba(255,0,0,0.15);
+    color: #ff6b6b;
+}
+
+/* BUTTON */
+.btn-small {
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    background: #f4c430;
+    color: #000;
+    margin-right: 5px;
+}
+
+.btn-danger {
+    background: #ff4d4d;
+    color: #fff;
+}

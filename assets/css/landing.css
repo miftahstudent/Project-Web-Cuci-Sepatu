@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: rgba(0,0,0,0.4);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-login {
+    padding: 8px 15px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url("hero.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    padding: 0 60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.subtitle {
+    color: #f4c430;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+.hero-btn {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary {
+    background: #f4c430;
+    color: #000;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/* ======================
+   SECTION GLOBAL
+====================== */
+.section {
+    padding: 80px 60px;
+    background: #111;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+/* ======================
+   LAYANAN SECTION FIX
+====================== */
+.layanan-section {
+    padding: 120px 60px 80px; /* jarak dari navbar */
+    background: #0f0f0f;
+}
+
+.layanan-section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+    color: #ffffff;
+}
+
+/* GRID */
+.layanan-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+/* CARD */
+.layanan-card {
+    background: #1a1a1a;
+    border-radius: 18px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.layanan-card:hover {
+    transform: translateY(-6px);
+}
+
+/* IMAGE */
+.layanan-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-bottom: 16px;
+}
+
+/* TITLE */
+.layanan-card h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+/* DESC */
+.layanan-card p {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+/* PRICE */
+.layanan-card span {
+    font-size: 15px;
+    font-weight: bold;
+    color: #f4c430;
+    margin-bottom: 16px;
+}
+
+/* PUSH BUTTON KE BAWAH */
+.layanan-card .btn-pesan {
+    margin-top: auto;
+    align-self: flex-start;
+}
+/* ======================
+   TENTANG
+====================== */
+.tentang-section {
+    background: #0f0f0f;
+    text-align: center;
+}
+
+.tentang-content {
+    max-width: 700px;
+    margin: auto;
+    color: #ccc;
+    line-height: 1.8;
+}
+
+/* ======================
+   KONTAK
+====================== */
+.kontak-section {
+    background: #111;
+    text-align: center;
+}
+
+.kontak-box p {
+    margin: 10px 0;
+    color: #ccc;
+}
+
+/* ======================
+   FOOTER
+====================== */
+.footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+}
+/* ======================
+   BUTTON PESAN
+====================== */
+.btn-pesan {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 22px;
+    border-radius: 25px;
+    background: #f4c430;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-pesan:hover {
+    background: #ffd84d;
+}

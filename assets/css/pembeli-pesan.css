@@ -1,0 +1,28 @@
+.form-box {
+    background: #1c1c1c;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 500px;
+}
+
+.form-box label {
+    display: block;
+    margin-bottom: 6px;
+    color: #aaa;
+    font-size: 13px;
+}
+
+.form-box input,
+.form-box textarea,
+.form-box select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.form-box textarea {
+    resize: vertical;
+}

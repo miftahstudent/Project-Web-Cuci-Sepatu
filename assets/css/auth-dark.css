@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url("../img/hero.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.65);
+}
+
+.auth-card {
+    position: relative;
+    z-index: 2;
+    width: 380px;
+    background: rgba(0,0,0,0.55);
+    backdrop-filter: blur(6px);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.auth-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.auth-card input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.auth-card button {
+    width: 100%;
+    padding: 12px;
+    background: #f4c430;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.auth-card button:hover {
+    opacity: 0.9;
+}
+
+.auth-card p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.auth-card a {
+    color: #f4c430;
+    text-decoration: none;
+}
+
+.error {
+    background: rgba(255,0,0,0.2);
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.success {
+    background: rgba(0,255,0,0.2);
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}

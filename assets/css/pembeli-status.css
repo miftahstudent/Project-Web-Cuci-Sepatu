@@ -1,0 +1,55 @@
+.table-wrapper {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    padding: 12px;
+    text-align: left;
+    background: #111;
+    color: #f4c430;
+    font-size: 14px;
+}
+
+table td {
+    padding: 12px;
+    border-top: 1px solid #333;
+}
+
+table tr:hover {
+    background: #2a2a2a;
+}
+
+/* STATUS BADGE */
+.badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.badge.menunggu {
+    background: rgba(255,255,0,0.2);
+    color: #ffd500;
+}
+
+.badge.diproses {
+    background: rgba(0,150,255,0.2);
+    color: #4da6ff;
+}
+
+.badge.dicuci {
+    background: rgba(255,165,0,0.2);
+    color: #ffa500;
+}
+
+.badge.selesai {
+    background: rgba(0,255,0,0.2);
+    color: #00ff88;
+}
