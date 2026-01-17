@@ -13,6 +13,7 @@ Pada halaman Home, pengguna langsung disambut dengan tampilan utama website Fres
 Halaman ini berfungsi sebagai halaman pengenalan agar pengguna tertarik menggunakan jasa FreshShoes.
 ---
 
+
 <img width="1359" height="636" alt="layanan" src="https://github.com/user-attachments/assets/c12de346-b782-4bee-9a6c-ab44efc5a737" />
 
 🧼 Halaman Layanan
@@ -23,6 +24,7 @@ Halaman Layanan menampilkan daftar paket cuci sepatu yang tersedia, antara lain:
 - Desain card agar informasi mudah dibaca
 Tujuan halaman ini adalah membantu pengguna memilih layanan sesuai kebutuhan sebelum melakukan pendaftaran.
 ***
+
 
 <img width="1361" height="639" alt="register" src="https://github.com/user-attachments/assets/7a24b3cb-278a-49a4-b91b-e505d1b6c2de" />
 
@@ -36,6 +38,7 @@ Pada halaman ini tersedia:
 Halaman ini berfungsi sebagai langkah awal agar pengguna dapat melakukan pemesanan layanan di tahap berikutnya.
 ***
 
+
 <img width="1359" height="643" alt="login" src="https://github.com/user-attachments/assets/3cdd6cd1-ae26-4ced-91f3-014938d4f138" />
 
 🔐 Halaman Login
@@ -46,6 +49,7 @@ Pada halaman ini tersedia:
 - Link menuju halaman register bagi pengguna baru
 Halaman ini berfungsi sebagai akses masuk pengguna agar dapat melanjutkan ke fitur layanan atau pemesanan.
 ***
+
 
 <img width="1360" height="640" alt="dashboard pelanggan" src="https://github.com/user-attachments/assets/152405fa-522e-43dd-8266-7a0f23186726" />
 
@@ -59,6 +63,7 @@ Pada halaman ini pengguna dapat melihat:
 Halaman ini berfungsi sebagai pusat kontrol pengguna untuk mengelola pesanan layanan cuci sepatu dengan mudah dan cepat.
 ***
 
+
 <img width="1361" height="635" alt="buatpesanan" src="https://github.com/user-attachments/assets/9dd1a841-a893-4b16-8482-98627af8d374" />
 
 📝 Halaman Buat Pesanan
@@ -71,6 +76,7 @@ Pilihan jenis layanan (basic clean, deep clean, dll)
 - Tombol untuk mengirim pesanan
 Halaman ini berfungsi sebagai media utama pelanggan dalam melakukan transaksi pemesanan layanan.
 ***
+
 
 <img width="1361" height="577" alt="status pesanan" src="https://github.com/user-attachments/assets/c5201ef8-c1c6-4475-aa5b-0184a2a57671" />
 
