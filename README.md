@@ -11,8 +11,7 @@ Pada halaman Home, pengguna langsung disambut dengan tampilan utama website Fres
 - Navigasi menu ke halaman Layanan dan Register
 - Informasi singkat tentang keunggulan layanan
 Halaman ini berfungsi sebagai halaman pengenalan agar pengguna tertarik menggunakan jasa FreshShoes.
-
-
+***
 
 <img width="1359" height="636" alt="layanan" src="https://github.com/user-attachments/assets/c12de346-b782-4bee-9a6c-ab44efc5a737" />
 
@@ -23,7 +22,7 @@ Halaman Layanan menampilkan daftar paket cuci sepatu yang tersedia, antara lain:
 - Harga masing-masing layanan
 - Desain card agar informasi mudah dibaca
 Tujuan halaman ini adalah membantu pengguna memilih layanan sesuai kebutuhan sebelum melakukan pendaftaran.
-
+***
 
 <img width="1361" height="639" alt="register" src="https://github.com/user-attachments/assets/7a24b3cb-278a-49a4-b91b-e505d1b6c2de" />
 
