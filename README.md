@@ -34,3 +34,53 @@ Pada halaman ini tersedia:
 - Validasi dasar pada form
 - Tombol daftar untuk mengirim data
 Halaman ini berfungsi sebagai langkah awal agar pengguna dapat melakukan pemesanan layanan di tahap berikutnya.
+***
+
+<img width="1359" height="643" alt="login" src="https://github.com/user-attachments/assets/3cdd6cd1-ae26-4ced-91f3-014938d4f138" />
+
+🔐 Halaman Login
+Halaman Login digunakan oleh pengguna yang sudah memiliki akun untuk masuk ke dalam sistem FreshShoes.
+Pada halaman ini tersedia:
+- Input email dan password
+- Tombol login untuk proses autentikasi
+- Link menuju halaman register bagi pengguna baru
+Halaman ini berfungsi sebagai akses masuk pengguna agar dapat melanjutkan ke fitur layanan atau pemesanan.
+***
+
+<img width="1360" height="640" alt="dashboard pelanggan" src="https://github.com/user-attachments/assets/152405fa-522e-43dd-8266-7a0f23186726" />
+
+📊 Halaman Dashboard Pelanggan
+Halaman Dashboard Pelanggan menampilkan ringkasan aktivitas pengguna setelah berhasil login.
+Pada halaman ini pengguna dapat melihat:
+- Total jumlah pesanan yang pernah dibuat
+- Jumlah pesanan yang sedang aktif
+- Tombol untuk membuat pesanan baru
+- Menu navigasi ke halaman buat pesanan dan status pesanan
+Halaman ini berfungsi sebagai pusat kontrol pengguna untuk mengelola pesanan layanan cuci sepatu dengan mudah dan cepat.
+***
+
+<img width="1361" height="635" alt="buatpesanan" src="https://github.com/user-attachments/assets/9dd1a841-a893-4b16-8482-98627af8d374" />
+
+📝 Halaman Buat Pesanan
+Halaman Buat Pesanan digunakan oleh pelanggan untuk melakukan pemesanan layanan cuci sepatu.
+Pada halaman ini tersedia form pemesanan yang berisi:
+Pilihan jenis layanan (basic clean, deep clean, dll)
+- Input jumlah sepatu
+- Alamat penjemputan sepatu
+- Catatan tambahan (opsional)
+- Tombol untuk mengirim pesanan
+Halaman ini berfungsi sebagai media utama pelanggan dalam melakukan transaksi pemesanan layanan.
+***
+
+<img width="1361" height="577" alt="status pesanan" src="https://github.com/user-attachments/assets/c5201ef8-c1c6-4475-aa5b-0184a2a57671" />
+
+📦 Halaman Status Pesanan
+Halaman Status Pesanan menampilkan riwayat dan perkembangan pesanan yang telah dibuat oleh pelanggan.
+Informasi yang ditampilkan pada tabel antara lain:
+- Nomor pesanan
+- Tanggal pemesanan
+- Jenis layanan yang dipilih
+- Jumlah sepatu
+- Total biaya
+- Status pesanan (misalnya: selesai)
+Halaman ini berfungsi untuk memantau proses layanan dan memastikan pesanan telah diproses dengan baik.
