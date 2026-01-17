@@ -11,6 +11,7 @@ Pada halaman Home, pengguna langsung disambut dengan tampilan utama website Fres
 - Desain hero section yang menarik perhatian
 - Navigasi menu ke halaman Layanan dan Register
 - Informasi singkat tentang keunggulan layanan
+  
 Halaman ini berfungsi sebagai halaman pengenalan agar pengguna tertarik menggunakan jasa FreshShoes.
 ---
 
@@ -23,6 +24,7 @@ Halaman Layanan menampilkan daftar paket cuci sepatu yang tersedia, antara lain:
 - Jenis layanan (basic clean, deep clean, dll)
 - Harga masing-masing layanan
 - Desain card agar informasi mudah dibaca
+  
 Tujuan halaman ini adalah membantu pengguna memilih layanan sesuai kebutuhan sebelum melakukan pendaftaran.
 ***
 
@@ -37,6 +39,7 @@ Pada halaman ini tersedia:
 - Email dan password
 - Validasi dasar pada form
 - Tombol daftar untuk mengirim data
+  
 Halaman ini berfungsi sebagai langkah awal agar pengguna dapat melakukan pemesanan layanan di tahap berikutnya.
 ***
 
@@ -50,6 +53,7 @@ Pada halaman ini tersedia:
 - Input email dan password
 - Tombol login untuk proses autentikasi
 - Link menuju halaman register bagi pengguna baru
+  
 Halaman ini berfungsi sebagai akses masuk pengguna agar dapat melanjutkan ke fitur layanan atau pemesanan.
 ***
 
@@ -64,6 +68,7 @@ Pada halaman ini pengguna dapat melihat:
 - Jumlah pesanan yang sedang aktif
 - Tombol untuk membuat pesanan baru
 - Menu navigasi ke halaman buat pesanan dan status pesanan
+  
 Halaman ini berfungsi sebagai pusat kontrol pengguna untuk mengelola pesanan layanan cuci sepatu dengan mudah dan cepat.
 ***
 
@@ -79,6 +84,7 @@ Pilihan jenis layanan (basic clean, deep clean, dll)
 - Alamat penjemputan sepatu
 - Catatan tambahan (opsional)
 - Tombol untuk mengirim pesanan
+  
 Halaman ini berfungsi sebagai media utama pelanggan dalam melakukan transaksi pemesanan layanan.
 ***
 
@@ -95,4 +101,5 @@ Informasi yang ditampilkan pada tabel antara lain:
 - Jumlah sepatu
 - Total biaya
 - Status pesanan (misalnya: selesai)
+  
 Halaman ini berfungsi untuk memantau proses layanan dan memastikan pesanan telah diproses dengan baik.
