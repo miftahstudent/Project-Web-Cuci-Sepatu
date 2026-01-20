@@ -1,6 +1,6 @@
 👟 FreshShoes - Website Layanan Cuci Sepatu
 ---
-Website layanan cuci sepatu profesional dengan tampilan modern dan sederhana.  
+Website layanan cuci sepatu.
 
 <img width="1360" height="641" alt="home" src="https://github.com/user-attachments/assets/41c6d547-23d5-4e0d-b8a3-b9c97f253e6b" />
 
